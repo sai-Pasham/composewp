@@ -11,4 +11,6 @@ https://docs.docker.com/compose/wordpress/#build-the-project
 
 Shutdown/Clean up
 </BR>
-docker-compose down will remove the containers and default network, but preserve your wordpress database. docker-compose down --volumes will remove the containers, default network, and the wordpress database.
+<code>docker-compose down</code> will remove the containers and default network, but preserve your wordpress database. 
+</BR>
+<code>docker-compose down --volumes</code> will remove the containers, default network, and the wordpress database.
